@@ -15,6 +15,9 @@ make install
 	如果服务器上安装了多个版本的php，应该找到对应的php版本的php.ini
 	1、通过phpinfo查找
 	2、通过“sudo find / -name 'php.ini'“ 查找文件所处的位置
+	打开php.ini，添加extension=swoole.so
+	通过php -m 可以查看已加载的模块中是否含有swoole
+
 
 
 
