@@ -4,7 +4,7 @@
 php版本最好大于5.6
 ### 下载地址
 到https://github.com/swoole/swoole-src/releases 下载最新的版本的swoole拓展源码，并解压到指定文件夹。
-### 安装
+# 2、安装
 进入swoole源文件目录
 phpize
 ./configure
